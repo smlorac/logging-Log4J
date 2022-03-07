@@ -17,6 +17,9 @@ public class Main {
         lista.adicionarInteiros(1);
         lista.adicionarInteiros(2);
         lista.adicionarInteiros(3);
+        
+        //testando se deu certo a lista
+        System.out.println(lista.toString());
 
         //até esse ponto não aparece nada
         lista.contagem();
